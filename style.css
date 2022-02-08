@@ -1,7 +1,23 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
 .header {
     background-color: #1f2937;
     color: #f9faf8;
     font-size: 24px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .section-one {
