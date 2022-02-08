@@ -124,6 +124,25 @@ a {
 .section-three {
     background-color: #e5e7eb;
     height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.quote {
+    width: 600px;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.name {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-left: 300px;
 }
 
 .section-four {
