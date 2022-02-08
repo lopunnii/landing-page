@@ -78,6 +78,48 @@ a {
 .section-two {
     background-color: #f9faf8;
     height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.main-text-two {
+    font-size: 36px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.icons-content {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.icons {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.icon-image {
+    width: 100px;
+    height: 100px;
+    border: solid #3882f6;
+    border-radius: 10px;
+}
+
+.description {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #1f2937;
+    text-align: center;
 }
 
 .section-three {
