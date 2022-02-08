@@ -1,0 +1,30 @@
+.header {
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.section-one {
+    background-color: #1f2937;
+    height: 500px;
+}
+
+.section-two {
+    background-color: #f9faf8;
+    height: 500px;
+}
+
+.section-three {
+    background-color: #e5e7eb;
+    height: 500px;
+}
+
+.section-four {
+    background-color: #f9faf8;
+    height: 500px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
