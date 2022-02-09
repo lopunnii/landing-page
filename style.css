@@ -157,6 +157,9 @@ a {
     width: 800px;
     height: 200px;
     background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .call-to-action {
