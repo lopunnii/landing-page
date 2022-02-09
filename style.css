@@ -47,7 +47,7 @@ a {
 }
 
 .main-text {
-    width: 290px;
+    width: 350px;
     font-size: 48px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
@@ -55,7 +55,7 @@ a {
 }
 
 .sub-text {
-    width: 290px;
+    width: 390px;
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -72,7 +72,7 @@ a {
 }
 
 .main-image {
-    width: 400px;
+    width: 500px;
     height: 300px;
 }
 
@@ -201,4 +201,9 @@ a {
 
 button:hover {
     background-color: #2a6ad1;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
 }
