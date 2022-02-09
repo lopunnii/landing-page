@@ -68,6 +68,7 @@ a {
     border: none;
     border-radius: 10px;
     padding: 10px;
+    cursor: pointer;
 }
 
 .main-image {
@@ -177,10 +178,11 @@ a {
 .button-two {
     border: 1px solid white;
     border-radius: 5px;
-    background-color: #3882f6;
+    background-color: #3881f6;
     color: #f9faf8;
     font-weight: 900;
     padding: 6px 12px;
+    cursor: pointer;
 }
 
 .footer {
@@ -195,4 +197,8 @@ a {
 .copyright {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
+}
+
+button:hover {
+    background-color: #2a6ad1;
 }
