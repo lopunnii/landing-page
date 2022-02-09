@@ -148,6 +148,36 @@ a {
 .section-four {
     background-color: #f9faf8;
     height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-container {
+    width: 800px;
+    height: 200px;
+    background-color: #3882f6;
+}
+
+.call-to-action {
+    font-size: 22px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f9faf8;
+}
+
+.action-subtext {
+    font-size: 18px;
+    color: #e5e7eb
+}
+
+.button-two {
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: 900;
+    padding: 6px 12px;
 }
 
 .footer {
